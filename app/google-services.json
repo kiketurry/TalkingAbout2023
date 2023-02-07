@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "277286804543",
+    "project_id": "talkingabout2023",
+    "storage_bucket": "talkingabout2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277286804543:android:d6f39934871d0b7b27ac8a",
+        "android_client_info": {
+          "package_name": "es.kiketurry.talkingabout2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277286804543-t8tv5haju7l4aolr4gc188j4c0sl58fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2fVIQX0y_-4hn84IlFaDxh7c6KUH1lis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277286804543-t8tv5haju7l4aolr4gc188j4c0sl58fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277286804543:android:e8a9e133c3b311e427ac8a",
+        "android_client_info": {
+          "package_name": "es.kiketurry.talkingabout2023.des"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277286804543-t8tv5haju7l4aolr4gc188j4c0sl58fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2fVIQX0y_-4hn84IlFaDxh7c6KUH1lis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277286804543-t8tv5haju7l4aolr4gc188j4c0sl58fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
