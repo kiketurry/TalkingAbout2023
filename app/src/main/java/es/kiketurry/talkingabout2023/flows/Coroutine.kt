@@ -2,7 +2,7 @@ package es.kiketurry.talkingabout2023.flows
 
 import kotlinx.coroutines.*
 
-fun main2() = runBlocking {
+fun mainCoroutine() = runBlocking {
 
     GlobalScope.launch {
         async { } //Lanzar tareas en paralelo

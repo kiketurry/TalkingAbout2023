@@ -6,8 +6,7 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 
-fun main() = runBlocking {
-
+fun mainExample() = runBlocking {
     makeFlow4()
         .filter { it % 2 == 0 }
         .map { "Value: $it" }
