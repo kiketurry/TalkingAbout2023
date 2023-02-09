@@ -14,4 +14,7 @@
     <string name="error_data_title">Ha ocurrido un problema</string>
     <string name="error_data_explain">Por favor, inténtelo de nuevo más tarde.</string>
     <string name="error_data_button">Intentar de nuevo</string>
+    <string name="button_go_to_live_data_example">Ejemplo LiveData</string>
+    <string name="button_go_to_channel_example">Ejemplo Channel</string>
+    <string name="button_load">Cargar</string>
 </resources>

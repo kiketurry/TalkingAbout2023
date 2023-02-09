@@ -8,6 +8,7 @@ import android.text.Editable
 import android.view.View
 import android.widget.Toast
 import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.snackbar.Snackbar
 import es.kiketurry.talkingabout2023.ui.base.BaseActivity
 import es.kiketurry.talkingabout2023.ui.base.BaseFragment
 import java.io.Serializable
@@ -146,4 +147,8 @@ fun <T : Serializable?> Bundle.getSerializable(key: String, m_class: Class<T>): 
         this.getSerializable(key, m_class)!!
     else
         this.getSerializable(key) as T
+}
+
+fun View.showSnack(message: String, length: Int = Snackbar.LENGTH_LONG) {
+    Snackbar.make(this, message, length).show()
 }
